@@ -1,0 +1,4 @@
+package sealedej;
+
+public abstract sealed class Shape permits Circle, Rectangle, Square {}
+
